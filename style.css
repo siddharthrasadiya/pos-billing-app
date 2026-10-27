@@ -1,0 +1,33 @@
+body {
+  font-family: system-ui, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+main {
+  text-align: center;
+}
+
+button {
+  font-size: 18px;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 8px;
+  background: #1a73e8;
+  color: #fff;
+  cursor: pointer;
+  margin: 6px;
+}
+
+button:disabled {
+  background: #999;
+}
+
+#status {
+  margin-top: 16px;
+  color: #555;
+}
